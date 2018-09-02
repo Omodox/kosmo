@@ -1,11 +1,11 @@
-<p>
-  dashboard works!
-</p>
+<div class="slider">
+  <img src="https://pingwin.red/system/comfy/cms/files/files/000/000/338/original/slider_5_ru-min2.jpg" alt="">
+</div>
 
-
-<div *ngFor="let game of games">
-  <a routerLink="/game/{{game.url}}">
-  <img src="{{game.filds.Logo?.list[0].url}}" alt="">
-  {{game.name}}
-</a>
+<div class="content">
+  <div *ngFor="let game of games">
+    <a routerLink="/game/{{game.url}}">
+      <img src="{{game.filds.Logo?.list[0].url}}" alt=""> {{game.name}}
+    </a>
+  </div>
 </div>

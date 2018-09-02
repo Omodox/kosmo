@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 60px;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+}
+
+.content {
+    max-width: 1590px;
+    margin: auto;
+}
+
+header{
+    position: fixed;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.76);
+    color: #fff;
+    width: 100%;
+    top: 0px;
+    right:  0px;
+
+    a {
+        display: inline-block;
+    }
+    nav {
+        display: inline-block;
+    }
+    ul{
+        li{
+            display: inline-block;
+
+            a{
+                display: block;
+                padding: 6px;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.logo{
+    img {
+        width: 50px;
+        display: inline-block;
+        vertical-align: middle;
+
+    }
+    h3{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

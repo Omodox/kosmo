@@ -1,0 +1,11 @@
+<p>
+  dashboard works!
+</p>
+
+
+<div *ngFor="let game of games">
+  <a routerLink="/game/{{game.url}}">
+  <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+  {{game.name}}
+</a>
+</div>

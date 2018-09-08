@@ -3,9 +3,35 @@
 </div>
 
 <div class="content">
-  <div *ngFor="let game of games">
-    <a routerLink="/game/{{game.url}}">
-      <img src="{{game.filds.Logo?.list[0].url}}" alt=""> {{game.name}}
-    </a>
-  </div>
+  <h2><i class="fas fa-fire"></i> Популярные игры</h2>
+  <span *ngFor="let list of [1,2,3,4,5,6]">
+      <div class="game_link" *ngFor="let game of games">
+          <a routerLink="/game/{{game.url}}">
+            <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+            <!-- <div>{{game.name}}</div> -->
+          </a>
+        </div>
+      </span>
+
+
+      <h2><i class="fas fa-fire"></i> Новые игры</h2>
+      <span *ngFor="let list of [1,2,3,4,5,6]">
+          <div class="game_link" *ngFor="let game of games">
+              <a routerLink="/game/{{game.url}}">
+                <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+                <!-- <div>{{game.name}}</div> -->
+              </a>
+            </div>
+          </span>
+
+
+          <h2><i class="fas fa-fire"></i> Популярные игры</h2>
+          <span *ngFor="let list of [1,2,3,4,5,6]">
+              <div class="game_link" *ngFor="let game of games">
+                  <a routerLink="/game/{{game.url}}">
+                    <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+                    <!-- <div>{{game.name}}</div> -->
+                  </a>
+                </div>
+              </span>
 </div>

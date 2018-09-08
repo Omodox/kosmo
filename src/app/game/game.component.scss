@@ -1,12 +1,26 @@
 .game_frame {
-    width: 90%;
-    height: 90%;
+    width: 98%;
+    height: 98%;
     position: absolute; 
     left: 0; 
     right: 0; 
+    border: 0px;
     margin-left: auto; 
     margin-right: auto; 
-    
+    margin-top: 10px;
+
+}
+
+.game_border {
+    width: 61%;
+    height: 91%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-top: 75px;
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .game {
@@ -15,4 +29,12 @@
     // margin: auto;
     // text-align: center;
   
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background:  url('https://fex.net/load/040036265367/734006314') center;
+    background-size: 141%;
 }

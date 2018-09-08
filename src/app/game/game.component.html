@@ -1,4 +1,7 @@
-<div class="game" *ngIf="page" >
-  
-  <iframe class="game_frame" align="center" allowfullscreen [src]="page.filds.Game.list[0].filds['Code'].value | iframe"></iframe>
+<div class="container">
+  <div class="game_border">
+    <div class="game" *ngIf="page">
+      <iframe class="game_frame" align="center" allowfullscreen [src]="page.filds.Game.list[0].filds['Code'].value | iframe"></iframe>
+    </div>
+  </div>
 </div>

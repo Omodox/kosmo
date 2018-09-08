@@ -6,3 +6,15 @@
         display: inline-block;
     }
 }
+
+.right_btns {
+    float: right;
+    margin-top: 7px;
+    a {
+        background: #b63b34;
+        border-radius: 15px;
+        padding: 14px 15px;
+        color: #fff;
+        text-decoration: none;
+    }
+}

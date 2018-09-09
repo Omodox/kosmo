@@ -7,7 +7,7 @@
   <span *ngFor="let list of [1,2,3,4,5,6]">
       <div class="game_link" *ngFor="let game of games">
           <a routerLink="/game/{{game.url}}">
-            <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+            <img src="{{game.filds.Game?.list[0].filds.LogoFex.value}}" alt="">
             <!-- <div>{{game.name}}</div> -->
           </a>
         </div>
@@ -18,7 +18,7 @@
       <span *ngFor="let list of [1,2,3,4,5,6]">
           <div class="game_link" *ngFor="let game of games">
               <a routerLink="/game/{{game.url}}">
-                <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+                <img src="{{game.filds.Game?.list[0].filds.LogoFex.value}}" alt="">
                 <!-- <div>{{game.name}}</div> -->
               </a>
             </div>
@@ -29,7 +29,7 @@
           <span *ngFor="let list of [1,2,3,4,5,6]">
               <div class="game_link" *ngFor="let game of games">
                   <a routerLink="/game/{{game.url}}">
-                    <img src="{{game.filds.Logo?.list[0].url}}" alt="">
+                    <img src="{{game.filds.Game?.list[0].filds.LogoFex.value}}" alt="">
                     <!-- <div>{{game.name}}</div> -->
                   </a>
                 </div>
